@@ -1,0 +1,20 @@
+
+Scenario: Verify user is able to choose valid pass                   [90m# features/AttractionsPass.feature:5[0m
+  [32mGiven [0m[32mI navigate to URL [0m[32m[1m"https://gocity.com/boston/en-us"[0m          [90m# StepDefinitions.i_navigate_to_url(java.lang.String)[0m
+  [32mThen [0m[32mI should be navigated to Home page[0m                            [90m# StepDefinitions.i_should_be_navigated_to_home_page()[0m
+  [32mWhen [0m[32mI click on All Inclusive link from nav bar[0m                    [90m# StepDefinitions.i_click_on_all_inclusive_link_from_nav_bar()[0m
+  [32mAnd [0m[32mI click on Attractions link from All Inclusive nav bar options[0m [90m# StepDefinitions.i_click_on_attractions_link_from_all_inclusive_nav_bar_options()[0m
+  [32mThen [0m[32mI should be navigated to attractions page[0m                     [90m# StepDefinitions.i_should_be_navigated_to_attractions_page()[0m
+  [32mWhen [0m[32mI click on package new England Aquarium Whale watch[0m           [90m# StepDefinitions.i_click_on_package_new_england_aquarium_whale_watch()[0m
+  [32mThen [0m[32mI should be navigated to corresponding attraction page[0m        [90m# StepDefinitions.i_should_be_navigated_to_corresponding_attraction_page()[0m
+  [32mWhen [0m[32mI click on Buy a Pass button[0m                                  [90m# StepDefinitions.i_click_on_buy_a_pass_button()[0m
+  [32mThen [0m[32mI should be navigated to attraction comparison page[0m           [90m# StepDefinitions.i_should_be_navigated_to_attraction_comparison_page()[0m
+  [32mWhen [0m[32mI click on Buy now button for Explorer pass[0m                   [90m# StepDefinitions.i_click_on_buy_now_button_for_explorer_pass()[0m
+  [32mThen [0m[32mI should be navigated to Pricing page[0m                         [90m# StepDefinitions.i_should_be_navigated_to_pricing_page()[0m
+  [32mWhen [0m[32mI click on select button for  2choice pass[0m                    [90m# StepDefinitions.i_click_on_select_button_for_2choice_pass()[0m
+  [32mThen [0m[32mI should see Additional information about 2choice pass[0m        [90m# StepDefinitions.i_should_see_additional_information_about_2choice_pass()[0m
+  [32mWhen [0m[32mI click on Checkout Button[0m                                    [90m# StepDefinitions.i_click_on_checkout_button()[0m
+  [32mThen [0m[32mI should be navigated to Review Page[0m                          [90m# StepDefinitions.i_should_be_navigated_to_review_page()[0m
+  [32mWhen [0m[32mI select date of Explorer pass activation[0m                     [90m# StepDefinitions.i_select_date_of_explorer_pass_activation()[0m
+  [32mAnd [0m[32mI click on Continue Payment Button[0m                             [90m# StepDefinitions.i_click_on_continue_payment_button()[0m
+  [32mThen [0m[32mI should be navigated to Payment Page[0m                         [90m# StepDefinitions.i_should_be_navigated_to_payment_page()[0m
